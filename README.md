@@ -1,16 +1,44 @@
-# React + Vite
+Page Builder Web App
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a drag-and-drop style page builder web application that allows users to create and customize a simple webpage using predefined content blocks.
 
-Currently, two official plugins are available:
+Users can dynamically add, edit, and arrange blocks such as text, images, and headers, making it similar to a lightweight version of tools like Notion or Webflow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+🧩 Add different types of blocks:
+Text Block
+Image Block
+Header Block
+✏️ Edit block content dynamically
+🖼️ Live preview of images using URL input
+📐 Clean and responsive UI
+💾 Persistent storage using localStorage
+🔄 Real-time updates on user interaction
+🛠️ Tech Stack
+Frontend: React.js (Vite)
+Styling: Tailwind CSS (via CDN)
+Language: JavaScript (ES6+)
+State Management: React Hooks (useState, useEffect)
+Persistence: Browser localStorage
+🏗️ Project Structure
+page-builder/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── README.md
+⚙️ Installation & Setup
+Clone the repository:
+git clone https://github.com/your-username/page-builder.git
+Navigate into the project:
+cd page-builder
+Install dependencies:
+npm install
+Start development server:
+npm run dev
+Open in browser:
+http://localhost:5173/
